@@ -1,0 +1,14 @@
+uuid: dba3dafa-e61c-4e1a-ac73-c1f34eec3331
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: i-yOJGY-YC5iYorVHFurjBm006uhz3zB6ap6uewT__o
+id: homepage
+label: Homepage
+description: ''
+use_admin_theme: false
+path: /home
+access_logic: and
+access_conditions: {  }
+parameters: {  }

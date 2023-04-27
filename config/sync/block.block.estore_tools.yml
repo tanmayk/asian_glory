@@ -1,0 +1,28 @@
+uuid: 921956e7-5408-4508-8d30-000bf801ef9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - block_class
+    - system
+  theme:
+    - estore
+_core:
+  default_config_hash: glmUtKwRNet5fWfegmJ7Pou11WU-XJAkx-RZ94gCXaI
+id: estore_tools
+theme: estore
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

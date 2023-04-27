@@ -1,0 +1,19 @@
+uuid: 6a44d637-8585-49ac-905f-0596b36ab90f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: khSvbYt9N7IrUYAivDpalvPnTVFqkDhWwqeIxFJ9VzI
+name: Blog
+type: blog
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,33 @@
+uuid: 6d749569-4233-4989-9b97-7c46c794b757
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - estore
+_core:
+  default_config_hash: M0_OEUeLqQKSRp2jOSdkrj1fZ9l1ICiYoNI4y8xpPo0
+id: views_block__blog_block_archives
+theme: estore
+region: sidebar_second
+weight: -10
+provider: null
+plugin: 'views_block:blog-block_archives'
+settings:
+  id: 'views_block:blog-block_archives'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/blog*'
+    negate: false
+    context_mapping: {  }

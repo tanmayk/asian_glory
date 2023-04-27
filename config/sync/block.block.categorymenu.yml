@@ -1,0 +1,28 @@
+uuid: f92b986a-09da-4f16-957b-a9242f03e90d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.category-menu
+  module:
+    - block_class
+    - system
+  theme:
+    - estore
+_core:
+  default_config_hash: ym6AB8hihMeheLlS04wqPjGB1tPrnOVr653BGX1KjoI
+id: categorymenu
+theme: estore
+region: navigation
+weight: -11
+provider: null
+plugin: 'system_menu_block:category-menu'
+settings:
+  id: 'system_menu_block:category-menu'
+  label: Category
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

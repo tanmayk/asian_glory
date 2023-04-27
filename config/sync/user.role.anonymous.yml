@@ -1,0 +1,26 @@
+uuid: db4333f0-1a01-49a4-a486-4f3832baae5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - commerce_checkout
+    - commerce_product
+    - commerce_wishlist
+    - contact
+    - filter
+    - system
+_core:
+  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'access wishlist'
+  - 'use text format restricted_html'
+  - 'view commerce_product'

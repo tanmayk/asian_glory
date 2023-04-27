@@ -1,0 +1,12 @@
+uuid: c79b7ec5-e66f-463c-9659-bfa45c48d8a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: 7J7IBbAmWlQCLSh7HnHv6pZwSqxM-GOiyDDKJ6VQCdY
+id: commerce_product.teaser_mini
+label: 'Teaser mini'
+targetEntityType: commerce_product
+cache: true

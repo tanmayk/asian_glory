@@ -1,0 +1,33 @@
+uuid: 77d0dde8-1527-4ade-b4e2-de4149a785a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.products
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - estore
+_core:
+  default_config_hash: ovxW4DGrpu1MGvfNLYBvE-kaDBDudhqOCP_4xI2JOEk
+id: views_block__products_block_products
+theme: estore
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:products-block_products'
+settings:
+  id: 'views_block:products-block_products'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/products*\r\n/product-category*"
+    negate: false
+    context_mapping: {  }

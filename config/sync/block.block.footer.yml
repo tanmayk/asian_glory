@@ -1,0 +1,27 @@
+uuid: c7b211ec-d9d9-40a9-8576-11020dff578b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - estore
+_core:
+  default_config_hash: T95VivCwiTwkdsxlFjIoLxyDlmap7xe7fDNgdQ9b2cM
+id: footer
+theme: estore
+region: footer_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

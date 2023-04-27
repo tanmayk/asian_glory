@@ -1,0 +1,10 @@
+uuid: 6a4aaa0a-d1b7-4682-b0a2-c823c746ce47
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1m6UUCQt1r6JfMPCKzpQI_7HLfOhyyxm15MiMRNZGOo
+id: footer-second
+label: 'Footer second'
+description: ''
+locked: true
