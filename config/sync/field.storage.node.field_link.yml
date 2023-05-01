@@ -1,4 +1,4 @@
-uuid: 3fdb56a1-aeb6-4fbb-938d-dc2f24bf48df
+uuid: 94c4d453-5fd9-4646-8322-db92f6f93346
 langcode: en
 status: true
 dependencies:
@@ -6,14 +6,14 @@ dependencies:
     - link
     - node
 _core:
-  default_config_hash: lqDhhmTov2BlhsT0oBucyyt-o0pvbGopO_CNHybYj7M
+  default_config_hash: _LUvVWNgdoeY6Ep1pQaG2khE7aU334_cXBAa-Fn0I2Q
 id: node.field_link
 field_name: field_link
 entity_type: node
 type: link
 settings: {  }
 module: link
-locked: false
+locked: true
 cardinality: 1
 translatable: true
 indexes: {  }

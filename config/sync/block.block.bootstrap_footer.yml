@@ -1,4 +1,4 @@
-uuid: ad83cabf-a408-415e-98f0-1e081bf88450
+uuid: 267806c9-2437-4500-9795-81e4307b3758
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
   theme:
     - bootstrap
 _core:
-  default_config_hash: 4VDn3bLy009pYlPUWQBHaaGVJu8FPnxNfr2DYrAnNHI
+  default_config_hash: h06zhb3xV9_2_3Zy9NsyylL7YBaEDlMwMEqNwAn8kMo
 id: bootstrap_footer
 theme: bootstrap
 region: footer

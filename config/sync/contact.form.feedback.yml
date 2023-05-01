@@ -1,4 +1,4 @@
-uuid: 4c439b86-ab57-4bce-b799-8921c3479264
+uuid: bd814d91-b16c-45f5-827b-c5c1da02985d
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - hello@osseed.com
+  - ivan.tbzh@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

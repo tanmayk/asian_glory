@@ -1,4 +1,4 @@
-uuid: c69d04c2-7c61-4d68-b89c-5b338345b012
+uuid: 8f5e3daa-ddb1-4ef9-af2d-4c837e8cf092
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - commerce_product
     - file
     - image
+_core:
+  default_config_hash: IZbsgHN4zRjmsbRNsPFzGGSlFizBIEWLWc0-qQHBapc
 id: commerce_product.field_images
 field_name: field_images
 entity_type: commerce_product
@@ -22,8 +24,8 @@ settings:
     width: null
     height: null
 module: image
-locked: false
-cardinality: -1
+locked: true
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

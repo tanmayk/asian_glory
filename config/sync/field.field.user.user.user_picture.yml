@@ -1,4 +1,4 @@
-uuid: 655eae67-e60c-49ab-9cca-fce2c5d5c4df
+uuid: b223b02b-bfd3-4640-b75a-b65c8bf5c1aa
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - image
     - user
 _core:
-  default_config_hash: twhm-ZOwSVkUjuLI_pQsaPo_pVLcqFfDmY-ojfqw0yk
+  default_config_hash: Iiq0AttdhgbebJwabSFwQQ1ORn64GoGz0xSZ_eyCJ8A
 id: user.user.user_picture
 field_name: user_picture
 entity_type: user
@@ -32,9 +32,9 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: null
+    uuid: 38fd853d-01fd-4402-a929-4913c5853490
     alt: ''
     title: ''
-    width: null
-    height: null
+    width: 100
+    height: 100
 field_type: image

@@ -1,4 +1,4 @@
-uuid: 18550fdd-1268-4c37-9d3a-52250b9916c8
+uuid: 412405ac-3811-4a7c-9b9f-e10cb144f82d
 langcode: en
 status: true
 dependencies:
@@ -20,34 +20,34 @@ bundle: blog
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 2
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 2
     region: content
   field_blog_category:
-    weight: 1
+    type: entity_reference_label
     label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    type: entity_reference_label
+    weight: 1
     region: content
   field_image:
-    weight: 0
+    type: image
     label: hidden
     settings:
-      image_style: s1200xa
       image_link: ''
+      image_style: s1200xa
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    type: image
+    weight: 0
     region: content
   links:
-    weight: 3
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 3
+    region: content
 hidden: {  }

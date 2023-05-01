@@ -1,12 +1,11 @@
-uuid: c57bb27a-3d1c-46a4-b156-fdc85f186d73
+uuid: b466f6a6-abd0-4c8e-98ae-91359987d70c
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: 3vA4FKQ1Qu8B1R8UdGPnmMfJrYO6Y6uMqeNgDgXxods
+  default_config_hash: QPuFH9E4612ox18hXdUXL8FhU021rCvOtYISSmvMQzc
 id: default
 label: Default
+traits: {  }
 orderItemType: default
 generateTitle: true
-traits: {  }
-locked: false

@@ -1,4 +1,4 @@
-uuid: fdffd0b3-a720-4dd6-93c7-6e04b82a73b7
+uuid: 6cc077d0-9c16-4ee2-bedb-3e9b4b610a02
 langcode: en
 status: true
 dependencies:
@@ -7,27 +7,27 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: k0scr8eB2zeYsjx07iHj8cTLzKjLxF4r_qSxPtdYUpw
+  default_config_hash: 0yjxBMMs6SkvljPAcaoGnnnmpMVI6k990HDXGGL2rJw
 id: commerce_wishlist.default.default
 targetEntityType: commerce_wishlist
 bundle: default
 mode: default
 content:
   uid:
-    label: above
     type: author
-    weight: 0
-    region: content
+    label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
   wishlist_items:
     type: entity_reference_entity_view
-    weight: 0
+    label: hidden
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    label: hidden
+    weight: 0
     region: content
 hidden:
   name: true

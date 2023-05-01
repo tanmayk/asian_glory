@@ -1,4 +1,4 @@
-uuid: 77d0dde8-1527-4ade-b4e2-de4149a785a6
+uuid: caccde03-2611-4efe-acd5-22b33b8018a9
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,9 @@ dependencies:
     - views
   theme:
     - estore
-_core:
-  default_config_hash: ovxW4DGrpu1MGvfNLYBvE-kaDBDudhqOCP_4xI2JOEk
+third_party_settings:
+  block_class:
+    classes: ''
 id: views_block__products_block_products
 theme: estore
 region: sidebar_second
@@ -28,6 +29,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/products*\r\n/product-category*"
     negate: false
     context_mapping: {  }
+    pages: "/products*\r\n/product-category*"

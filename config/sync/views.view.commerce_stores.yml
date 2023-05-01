@@ -1,4 +1,4 @@
-uuid: 56f7057e-a08b-4d79-8100-102955692bbd
+uuid: fde7c5a8-c15b-453b-b909-0d965893be50
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - commerce_store
     - user
 _core:
-  default_config_hash: pjAffbvMFN38k-DPrfBUXiSttBPMx5Ljl-ua11kpzKc
+  default_config_hash: '-X1gJHmWCoN8z6urr4N2eYcfT9_kGyKMCoS1kh1IbPQ'
 id: commerce_stores
 label: Stores
 module: views
@@ -77,73 +77,6 @@ display:
           action_title: 'With selection'
           include_exclude: exclude
           selected_actions: {  }
-        is_default:
-          id: is_default
-          table: commerce_store_field_data
-          field: is_default
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: commerce_store
-          entity_field: is_default
-          plugin_id: field
-          label: Default
-          exclude: true
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: boolean
-          settings:
-            format: custom
-            format_custom_false: ''
-            format_custom_true: ' (Default)'
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
         name:
           id: name
           table: commerce_store_field_data
@@ -157,8 +90,8 @@ display:
           label: Name
           exclude: false
           alter:
-            alter_text: true
-            text: '{{ name__value }}{{ is_default }}'
+            alter_text: false
+            text: ''
             make_link: false
             path: ''
             absolute: false
@@ -199,73 +132,6 @@ display:
           type: string
           settings:
             link_to_entity: false
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-        changed:
-          id: changed
-          table: commerce_store_field_data
-          field: changed
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: commerce_store
-          entity_field: changed
-          plugin_id: field
-          label: Updated
-          exclude: false
-          alter:
-            alter_text: false
-            text: ''
-            make_link: false
-            path: ''
-            absolute: false
-            external: false
-            replace_spaces: false
-            path_case: none
-            trim_whitespace: false
-            alt: ''
-            rel: ''
-            link_class: ''
-            prefix: ''
-            suffix: ''
-            target: ''
-            nl2br: false
-            max_length: 0
-            word_boundary: true
-            ellipsis: true
-            more_link: false
-            more_link_text: ''
-            more_link_path: ''
-            strip_tags: false
-            trim: false
-            preserve_tags: ''
-            html: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_empty: false
-          empty_zero: false
-          hide_alter_empty: true
-          click_sort_column: value
-          type: timestamp
-          settings:
-            date_format: short
-            custom_date_format: ''
-            timezone: ''
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -443,22 +309,7 @@ display:
           empty: true
           content: 'No stores available.'
           tokenize: false
-      sorts:
-        is_default:
-          id: is_default
-          table: commerce_store_field_data
-          field: is_default
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: commerce_store
-          entity_field: is_default
-          plugin_id: standard
-          order: DESC
-          expose:
-            label: ''
-            field_identifier: ''
-          exposed: false
+      sorts: {  }
       arguments: {  }
       filters:
         type:
@@ -482,6 +333,7 @@ display:
             use_operator: false
             operator: type_op
             operator_limit_selection: false
+            operator_list: {  }
             identifier: type
             required: false
             remember: false
@@ -492,7 +344,6 @@ display:
               administrator: '0'
             reduce: false
             hide_single_bundle: true
-            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -513,7 +364,6 @@ display:
           default_row_class: true
           columns:
             name: name
-            changed: changed
             type: type
             operations: operations
           default: '-1'
@@ -521,9 +371,6 @@ display:
             name:
               sortable: true
               default_sort_order: asc
-            changed:
-              sortable: true
-              default_sort_order: desc
               align: ''
               separator: ''
               empty_column: false

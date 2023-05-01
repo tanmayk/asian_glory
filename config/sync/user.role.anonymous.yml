@@ -1,26 +1,31 @@
-uuid: db4333f0-1a01-49a4-a486-4f3832baae5a
+uuid: 8da48fba-de11-4778-8a29-18e8940e885b
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.restricted_html
   module:
+    - comment
     - commerce_checkout
     - commerce_product
     - commerce_wishlist
     - contact
     - filter
+    - search
     - system
 _core:
-  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
 label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
   - 'access checkout'
+  - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
   - 'access wishlist'
+  - 'post comments'
+  - 'search content'
   - 'use text format restricted_html'
   - 'view commerce_product'

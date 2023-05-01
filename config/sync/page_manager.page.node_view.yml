@@ -1,4 +1,4 @@
-uuid: c590e87f-b7e5-423d-bb4a-31853fc5b0d6
+uuid: ea79a8fc-0260-4e6e-8005-fbff2e9e800a
 langcode: en
 status: true
 dependencies: {  }
@@ -14,5 +14,5 @@ access_conditions: {  }
 parameters:
   node:
     machine_name: node
-    type: 'entity:node'
     label: Node
+    type: 'entity:node'

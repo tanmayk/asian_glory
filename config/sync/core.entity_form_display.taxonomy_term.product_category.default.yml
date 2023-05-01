@@ -1,4 +1,4 @@
-uuid: 30adfe28-84f1-41e5-b5d0-92279d056a0d
+uuid: 69ebd488-71f6-421f-9d15-4afcae7a8293
 langcode: en
 status: true
 dependencies:
@@ -22,17 +22,17 @@ content:
     weight: 2
     region: content
     settings:
-      placeholder: ''
       rows: 5
+      placeholder: ''
     third_party_settings: {  }
   field_image:
+    type: image_image
     weight: 1
+    region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-    type: image_image
-    region: content
   name:
     type: string_textfield
     weight: 0
@@ -46,12 +46,5 @@ content:
     weight: 3
     region: content
     settings: {  }
-    third_party_settings: {  }
-  status:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 100
-    region: content
     third_party_settings: {  }
 hidden: {  }

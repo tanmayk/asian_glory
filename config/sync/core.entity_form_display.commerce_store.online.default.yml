@@ -1,4 +1,4 @@
-uuid: b1c5a410-b2ce-4624-8609-983d2840f668
+uuid: bb6ef8f6-f6d4-4596-b61e-2fd585ee68ff
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
   module:
     - address
     - path
-_core:
-  default_config_hash: VDGg8hSWKm_pGY53jsKuNoHY_Xf6nm_diqAC066ktA4
 id: commerce_store.online.default
 targetEntityType: commerce_store
 bundle: online
@@ -16,9 +14,9 @@ mode: default
 content:
   address:
     type: address_default
-    settings: {  }
     weight: 4
     region: content
+    settings: {  }
     third_party_settings: {  }
   billing_countries:
     type: options_select
@@ -34,18 +32,18 @@ content:
     third_party_settings: {  }
   is_default:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 9
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   mail:
     type: email_default
     weight: 1
     region: content
     settings:
-      size: 60
       placeholder: ''
+      size: 60
     third_party_settings: {  }
   name:
     type: string_textfield
@@ -63,10 +61,10 @@ content:
     third_party_settings: {  }
   prices_include_tax:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 6
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   tax_registrations:
     type: options_select
@@ -81,5 +79,4 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  created: true
   uid: true

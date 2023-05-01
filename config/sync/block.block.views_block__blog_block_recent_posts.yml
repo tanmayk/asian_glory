@@ -1,4 +1,4 @@
-uuid: 75163c31-e80b-4df4-9385-535d238dcfa0
+uuid: 01cc90ef-0bb2-4325-beea-37a89e0f732a
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,9 @@ dependencies:
     - views
   theme:
     - estore
-_core:
-  default_config_hash: aoNuuspTD6I9jWOQ8e6JI6FMOdk13zRLNP083KqpJ64
+third_party_settings:
+  block_class:
+    classes: ''
 id: views_block__blog_block_recent_posts
 theme: estore
 region: sidebar_second
@@ -28,6 +29,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '/blog*'
     negate: false
     context_mapping: {  }
+    pages: '/blog*'

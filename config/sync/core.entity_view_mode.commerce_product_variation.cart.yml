@@ -1,4 +1,4 @@
-uuid: 83092f87-0058-4b19-b269-35eba08fc006
+uuid: 4854027c-4a39-4135-8035-7fdb93662423
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
       - commerce_cart
       - commerce_product
 _core:
-  default_config_hash: xtrHHgI_SwA-1npf3GB0ntU65fMvm4mxImBtkbmZWSk
+  default_config_hash: SjZo-csuMc7wQHh55OpVRuTrQTp8zy3k6cR9RykDWIg
 id: commerce_product_variation.cart
 label: Cart
 targetEntityType: commerce_product_variation

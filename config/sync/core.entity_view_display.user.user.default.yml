@@ -1,4 +1,4 @@
-uuid: 183d6aa0-6f99-49fb-9dd7-b0149ef7ef03
+uuid: b5abd189-6b98-4820-8c2b-1532dbbbd52a
 langcode: en
 status: true
 dependencies:
@@ -10,13 +10,15 @@ dependencies:
     - image
     - user
 _core:
-  default_config_hash: mZLyuWM9CQx2ZJVqFGSbzgFnHzudVbHBYmdU256A5Wk
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
 id: user.user.default
 targetEntityType: user
 bundle: user
 mode: default
 content:
   member_for:
+    settings: {  }
+    third_party_settings: {  }
     weight: 5
     region: content
   user_picture:
@@ -33,3 +35,4 @@ content:
 hidden:
   commerce_remote_id: true
   customer_profiles: true
+  profile_customer: true

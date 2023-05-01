@@ -1,4 +1,4 @@
-uuid: 2cb7899f-67cd-4403-8088-455c79815ac7
+uuid: 4da05c7b-dc8e-49b5-992c-768270da41ec
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,8 @@ dependencies:
     - field.storage.commerce_product.field_images
   module:
     - image
+_core:
+  default_config_hash: kxxCJ1Q6bOaCdoWNLpTZJrTdLBbBOnKmf3FbKCPLv8U
 id: commerce_product.default.field_images
 field_name: field_images
 entity_type: commerce_product
@@ -20,7 +22,7 @@ default_value_callback: ''
 settings:
   handler: 'default:file'
   handler_settings: {  }
-  file_directory: product-images
+  file_directory: 'products/[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
   max_resolution: ''

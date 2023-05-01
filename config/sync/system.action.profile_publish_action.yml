@@ -1,14 +1,11 @@
-uuid: 053d4ce2-6839-4fab-90b1-9cdfb6958be5
+uuid: efaf6fe0-8df7-4f61-9f18-ca98cd8f5dd9
 langcode: en
 status: true
 dependencies:
   module:
     - profile
-  enforced:
-    module:
-      - profile
 _core:
-  default_config_hash: jjClImKlBhvh__KZnX6YkW_Kc1yZvqXODbUHt30A8z4
+  default_config_hash: dz5_l09fj1m6b4MZVYlHjYHsXSlG9aQHGGoupPb8phg
 id: profile_publish_action
 label: 'Publish selected profile'
 type: profile

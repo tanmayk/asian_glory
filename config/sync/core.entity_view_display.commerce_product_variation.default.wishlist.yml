@@ -1,4 +1,4 @@
-uuid: 91662e52-925d-4343-873c-276e45752d26
+uuid: e08d7fd4-25c2-4a33-a654-b9706473e09e
 langcode: en
 status: true
 dependencies:
@@ -19,21 +19,21 @@ bundle: default
 mode: wishlist
 content:
   list_price:
-    label: above
     type: commerce_price_default
-    weight: -1
-    region: content
+    label: above
     settings:
       strip_trailing_zeroes: false
       currency_display: symbol
     third_party_settings: {  }
+    weight: -1
+    region: content
   product_id:
     type: entity_reference_label
-    weight: 0
     label: hidden
     settings:
       link: true
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   price: true

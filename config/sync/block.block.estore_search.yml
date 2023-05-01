@@ -1,0 +1,24 @@
+uuid: 8aa67bc8-5f9d-4d25-9814-6119c43a48b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - search
+  theme:
+    - estore
+_core:
+  default_config_hash: Hg18D5SzcNd0DNhrheygQwDW81BaYhea6K8pkANy80w
+id: estore_search
+theme: estore
+region: navigation
+weight: -10
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

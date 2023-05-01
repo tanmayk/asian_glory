@@ -1,0 +1,13 @@
+diff --git a/templates/layouts/homepage/first/homepage--first.html.twig b/templates/layouts/homepage/first/homepage--first.html.twig
+index 352cd53..636dab4 100644
+--- a/templates/layouts/homepage/first/homepage--first.html.twig
++++ b/templates/layouts/homepage/first/homepage--first.html.twig
+@@ -20,7 +20,7 @@
+             <div {{ region_attributes.top_slideshow.addClass(
+               'layout__region',
+               'layout__region--top-slideshow',
+-              'col-lg-8',
++              'col-lg-12',
+               'col-md-12'
+             ) }}>
+ 

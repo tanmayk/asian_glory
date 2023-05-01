@@ -1,25 +1,24 @@
-uuid: b04ce702-2ac3-47a6-9087-4e4e10a7484d
+uuid: 4682dfa1-b11f-48bf-8239-1dadde048c8d
 langcode: en
 status: true
 dependencies:
   config:
     - commerce_product.commerce_product_type.default
     - field.field.commerce_product.default.body
-    - field.field.commerce_product.default.field_benefits
     - field.field.commerce_product.default.field_category
-    - field.field.commerce_product.default.field_how_to_use
     - field.field.commerce_product.default.field_images
-    - field.field.commerce_product.default.field_ingredients
-    - field.field.commerce_product.default.field_type
+    - field.field.commerce_product.default.field_related_products
+    - field.field.commerce_product.default.field_reviews
+    - field.field.commerce_product.default.field_sale
     - image.style.thumbnail
   module:
+    - comment
     - commerce
     - image
     - path
-    - shs
     - text
 _core:
-  default_config_hash: bVqhDE0CBvUi4RPHqKu4sBhUOUwOTgcHVhn5PkfngLU
+  default_config_hash: gcsrKJ5HqxdoqA7GqRhz33UrCLp_PxvLAMxSKJKI4uU
 id: commerce_product.default.default
 targetEntityType: commerce_product
 bundle: default
@@ -27,7 +26,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 4
+    weight: 5
     region: content
     settings:
       rows: 9
@@ -37,51 +36,46 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 9
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_benefits:
-    type: string_textarea
-    weight: 6
+  field_category:
+    type: options_buttons
+    weight: 1
     region: content
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-  field_how_to_use:
-    type: string_textarea
-    weight: 7
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   field_images:
     type: image_image
-    weight: 3
+    weight: 2
     region: content
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_ingredients:
-    type: string_textarea
-    weight: 5
+  field_related_products:
+    type: entity_reference_autocomplete
+    weight: 3
     region: content
     settings:
-      rows: 5
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
       placeholder: ''
     third_party_settings: {  }
-  field_type:
-    type: options_shs
-    weight: 2
+  field_reviews:
+    type: comment_default
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_sale:
+    type: boolean_checkbox
+    weight: 4
     region: content
     settings:
-      display_node_count: false
-      create_new_items: false
-      create_new_levels: false
-      force_deepest: true
+      display_label: true
     third_party_settings: {  }
   path:
     type: path
@@ -98,7 +92,7 @@ content:
     third_party_settings: {  }
   stores:
     type: commerce_entity_select
-    weight: 0
+    weight: 12
     region: content
     settings:
       hide_single_entity: true
@@ -108,7 +102,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 1
+    weight: 0
     region: content
     settings:
       size: 60
@@ -116,7 +110,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 8
+    weight: 6
     region: content
     settings:
       match_operator: CONTAINS
@@ -125,5 +119,4 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  field_category: true
   variations: true

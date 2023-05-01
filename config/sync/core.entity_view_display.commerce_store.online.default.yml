@@ -1,4 +1,4 @@
-uuid: 091e8de6-b250-4c55-892e-8efb402aacfe
+uuid: 6300f329-0108-4c6c-9649-47976edd8c49
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - address
 _core:
-  default_config_hash: TXXGt2nhVIkNciw-z_ybNwsIZnsyMLKvqUFjsZFUmwI
+  default_config_hash: fUxrlZt5z8U8dKAADqGtH0YQWZSVXIkH9Ga5abq8HwU
 id: commerce_store.online.default
 targetEntityType: commerce_store
 bundle: online
@@ -15,17 +15,13 @@ mode: default
 content:
   address:
     type: address_default
-    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 1
     region: content
 hidden:
   billing_countries: true
-  created: true
   default_currency: true
-  is_default: true
   mail: true
   name: true
-  timezone: true
-  uid: true

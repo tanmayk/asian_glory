@@ -1,0 +1,10 @@
+uuid: 99d17456-b5aa-4f2e-a6ae-cb759b847838
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_wishlist
+id: commerce_wishlist.token
+label: Token
+targetEntityType: commerce_wishlist
+cache: true

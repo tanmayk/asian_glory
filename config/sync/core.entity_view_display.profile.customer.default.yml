@@ -1,4 +1,4 @@
-uuid: 42d0438d-2a85-4d64-a9c9-d5fbc26d123a
+uuid: 5765267f-8b31-4b0c-8105-f96301f3873b
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ dependencies:
     module:
       - commerce_order
 _core:
-  default_config_hash: zA0MBGUGdWqnBBoC762uDcH92qRZHC8KllbkpOjNUcs
+  default_config_hash: '-D8G44VGLIAIFvoHm_u7-Awnie4iCenOWfldrpNy_ys'
 id: profile.customer.default
 targetEntityType: profile
 bundle: customer
@@ -19,9 +19,9 @@ mode: default
 content:
   address:
     type: address_default
-    weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden: {  }

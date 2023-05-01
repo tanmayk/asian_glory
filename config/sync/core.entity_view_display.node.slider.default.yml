@@ -1,4 +1,4 @@
-uuid: 9ac9d8d0-39d7-41ca-9337-5cb305538a41
+uuid: b51278a6-3c66-47d9-82b2-d91c1293ffce
 langcode: en
 status: true
 dependencies:
@@ -19,18 +19,18 @@ bundle: slider
 mode: default
 content:
   field_image:
-    weight: 102
+    type: image
     label: above
     settings:
-      image_style: ''
       image_link: ''
+      image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }
-    type: image
+    weight: 102
     region: content
   field_link:
-    weight: 104
+    type: link
     label: above
     settings:
       trim_length: 80
@@ -39,17 +39,19 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 104
     region: content
   field_teaser_text:
-    weight: 103
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 103
     region: content
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 100
     region: content
 hidden: {  }

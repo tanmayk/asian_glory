@@ -18,19 +18,18 @@ schemas:
   bootstrap: 8000
   estore: 8000
 region_wells:
-  navigation: ''
-  navigation_collapsible: ''
-  header: ''
-  highlighted: ''
-  help: ''
-  content: ''
-  sidebar_first: ''
-  sidebar_second: ''
-  footer: ''
   top_header_right: ''
   left_middle_header: ''
   middle_header: ''
   right_middle_header: ''
+  navigation: ''
+  navigation_collapsible: ''
+  highlighted: ''
+  help: ''
+  header: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
   footer_first: ''
   footer_second: ''
   footer_third: ''
@@ -40,19 +39,11 @@ region_wells:
 fluid_container: 1
 table_responsive: '-1'
 table: ''
-copyright_text: 'Copyright © AsianGlory All Rights Reserved'
-display_theme_credits: 0
-header_email: ''
-header_phone: ''
-header_location: ''
-header_shop_opens: ''
+copyright_text: 'Copyright © @year · All rights reserved'
+display_theme_credits: 1
+header_email: yourmail@domain.com
+header_phone: '+1234567890'
+header_location: '242 West Main street, Ohio'
+header_shop_opens: 'Shop opens: 08:00-18:00 (weekdays)'
 breadcrumb_home: 1
 cdn_provider: ''
-cdn_theme: ''
-cdn_cache_ttl_versions: 0
-cdn_cache_ttl_themes: 0
-cdn_cache_ttl_assets: 0
-cdn_cache_ttl_library: 0
-reset: 'Reset Broken Cache'
-apply: Apply
-reset_http_request_cache: ''

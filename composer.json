@@ -28,7 +28,13 @@
         "drupal/shs": "^2.0@RC",
         "drupal/estore": "^1.14",
         "drupal/colorbox": "^2.0",
-        "drupal/bootstrap_layouts": "^5.3"
+        "drupal/bootstrap_layouts": "^5.3",
+        "drupal/asset_injector": "^2.16",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/config_inspector": "^2.1",
+        "drupal/features": "^3.12",
+        "drupal/redirect": "^1.8",
+        "drupal/devel_php": "^1.5"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
@@ -66,7 +72,15 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "enable-patching": true
+        "enable-patching": true,
+        "patches": {
+            "drupal/commerce_wishlist": {
+                "3251836 : Error while deleting Wishlist Item": "https://www.drupal.org/files/issues/2022-05-26/broken-wishlist-3251836-3.patch"
+            },
+            "drupal/estore": {
+                "Custom changes": "patches/estore/custom-changes.patch"
+            }
+        }
     },
     "autoload": {
         "classmap": ["upstream-configuration/scripts/ComposerScripts.php"]

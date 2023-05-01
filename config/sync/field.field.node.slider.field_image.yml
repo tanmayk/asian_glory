@@ -1,4 +1,4 @@
-uuid: 12c68047-aa1c-4175-a589-d9c0e36589ef
+uuid: 97dae7c5-20e9-4eaf-8116-2359f8e6dbe8
 langcode: en
 status: true
 dependencies:
@@ -20,9 +20,11 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: 'slider/[date:custom:Y]-[date:custom:m]'
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: sliders
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: ''
+  max_filesize: '5 MB'
   max_resolution: ''
   min_resolution: ''
   alt_field: true
@@ -35,6 +37,4 @@ settings:
     title: ''
     width: null
     height: null
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: image

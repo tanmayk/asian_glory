@@ -1,9 +1,8 @@
-uuid: c5a91d37-5d7d-4465-9022-58816b3755fc
+uuid: e31675d8-8031-4866-8336-43ab589c0dc4
 langcode: en
 status: true
 dependencies:
   module:
-    - commerce_wishlist
     - entity
   enforced:
     module:

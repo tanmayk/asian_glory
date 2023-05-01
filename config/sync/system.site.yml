@@ -1,14 +1,15 @@
 _core:
-  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
 langcode: en
-uuid: d88b32fb-2848-49cd-8c5b-7f533bc47713
-name: 'Asian Glory'
-mail: hello@osseed.com
-slogan: ''
+uuid: 69f0f50b-1b20-44c6-a42a-d8b2a711c69b
+name: eStore
+mail: ivan.tbzh@gmail.com
+slogan: 'Lorem ipsum'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
+mail_notification: ''

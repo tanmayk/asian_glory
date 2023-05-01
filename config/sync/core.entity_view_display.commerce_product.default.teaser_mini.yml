@@ -1,0 +1,65 @@
+uuid: ea8cc5fd-3632-4fab-a2e0-ea5d2bafe4e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - core.entity_view_mode.commerce_product.teaser_mini
+    - field.field.commerce_product.default.body
+    - field.field.commerce_product.default.field_category
+    - field.field.commerce_product.default.field_images
+    - field.field.commerce_product.default.field_related_products
+    - field.field.commerce_product.default.field_reviews
+    - field.field.commerce_product.default.field_sale
+    - image.style.sc180x180
+  module:
+    - commerce_product
+    - commerce_wishlist
+    - image
+_core:
+  default_config_hash: gTcpVwQHA9zDiOi27IPOdUGcw6clAFlleSdpsdL76T4
+id: commerce_product.default.teaser_mini
+targetEntityType: commerce_product
+bundle: default
+mode: teaser_mini
+content:
+  field_images:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: sc180x180
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  variations:
+    type: commerce_add_to_cart
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings:
+      commerce_wishlist:
+        show_wishlist: true
+        weight_wishlist: 99
+        label_wishlist: ''
+    weight: 2
+    region: content
+hidden:
+  body: true
+  created: true
+  field_category: true
+  field_related_products: true
+  field_reviews: true
+  field_sale: true
+  stores: true
+  uid: true

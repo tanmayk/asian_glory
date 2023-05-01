@@ -1,12 +1,10 @@
-uuid: 17c2a150-8def-4e19-b487-0fcdc7823dba
+uuid: 9e7e7086-22bd-4ddf-a091-d456cf944a6a
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - commerce_order
-_core:
-  default_config_hash: zyTJjisGAiNCmSVzU73UWGY2joBWA3QXvlcjDDIuWcs
 id: order_default
 label: Default
 targetEntityType: commerce_order

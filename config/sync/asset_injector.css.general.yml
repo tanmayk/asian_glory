@@ -1,0 +1,21 @@
+uuid: cc1d0ade-388e-4af2-b1d8-dc94e749cf5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: general
+label: General
+code: |-
+  .block-region-top-slideshow img {
+  	width: 100%;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: estore
+contexts: {  }
+conditions_require_all: true

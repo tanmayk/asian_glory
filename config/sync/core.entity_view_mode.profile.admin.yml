@@ -1,4 +1,4 @@
-uuid: fd58ddeb-1c75-4c26-b62a-688919652005
+uuid: 7061d8ec-bff6-45db-82bb-21b011b06012
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,6 @@ dependencies:
   enforced:
     module:
       - commerce_order
-_core:
-  default_config_hash: rNBHCP7hJFMjP_iDe9-0AsSfkGC98V6Lh_oeOwmLos8
 id: profile.admin
 label: Admin
 targetEntityType: profile

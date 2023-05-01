@@ -1,4 +1,4 @@
-uuid: 47a39969-5b5d-4ceb-a3b6-2bfa50816b05
+uuid: 7bbf8995-63d1-495c-88f3-1563e387a8b1
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.slider.field_image
     - field.field.node.slider.field_link
     - field.field.node.slider.field_teaser_text
-    - image.style.sc870x540
+    - image.style.s1200xa
     - node.type.slider
   module:
     - image
@@ -22,19 +22,17 @@ mode: teaser
 content:
   field_image:
     type: image
-    weight: 0
-    region: content
     label: hidden
     settings:
-      image_style: sc870x540
       image_link: ''
+      image_style: s1200xa
       image_loading:
         attribute: lazy
     third_party_settings: {  }
+    weight: 0
+    region: content
   field_link:
     type: link_separate
-    weight: 2
-    region: content
     label: hidden
     settings:
       trim_length: 80
@@ -43,13 +41,15 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
+    weight: 2
+    region: content
   field_teaser_text:
     type: string
-    weight: 1
-    region: content
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   links: true

@@ -1,0 +1,45 @@
+uuid: f66391cc-550e-4cfa-88b3-4dc3b9e3e21f
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_wishlist
+  enforced:
+    module:
+      - commerce_product
+_core:
+  default_config_hash: wKpNppO8DRePCFk1LakmXLlrjAWVxRsfIzhdS2E8Dxs
+id: commerce_wishlist_item.default.default
+targetEntityType: commerce_wishlist_item
+bundle: default
+mode: default
+content:
+  comment:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  purchasable_entity:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  quantity:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

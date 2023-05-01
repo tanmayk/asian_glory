@@ -1,4 +1,4 @@
-uuid: ccff682a-3c4e-45a1-a370-c3f588deb947
+uuid: 77a4744c-2639-49bb-9cc6-068f2de6b33b
 langcode: en
 status: true
 dependencies:
@@ -8,12 +8,12 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: qaw_-7RjuDqZ6ysM0sqX7hyzsbjVlvrLRxklB0lHHy8
+  default_config_hash: ObNdu_OSuSmozy8UUi9cKY41dPs7s1ZOuWhG6Q5KdR8
 id: commerce_product.default.body
 field_name: body
 entity_type: commerce_product
 bundle: default
-label: Description
+label: Body
 description: ''
 required: false
 translatable: true

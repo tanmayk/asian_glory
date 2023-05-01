@@ -1,4 +1,4 @@
-uuid: cbe4e6b8-88a6-43a3-8f76-c36bba6f1057
+uuid: 73e7e937-5859-482e-a050-6ffc04d988b1
 langcode: en
 status: true
 dependencies:
@@ -10,59 +10,49 @@ dependencies:
     module:
       - commerce_product
 _core:
-  default_config_hash: a-MK2hTebnM3YwCg08ZKg7ItNkBUOsu3am_y0HIjTw8
+  default_config_hash: YvPk7-s7bZEOuxWBbu1G5wo4qc-OOnZpmCwPUdhp40o
 id: commerce_order_item.default.default
 targetEntityType: commerce_order_item
 bundle: default
 mode: default
 content:
-  created:
-    label: hidden
-    type: timestamp
-    weight: 0
-    region: content
-    settings:
-      date_format: medium
-      custom_date_format: ''
-      timezone: ''
-    third_party_settings: {  }
   purchased_entity:
     type: entity_reference_entity_view
-    weight: 0
+    label: above
     settings:
       view_mode: default
       link: false
     third_party_settings: {  }
-    label: above
+    weight: 0
     region: content
   quantity:
     type: number_decimal
-    weight: 1
+    label: above
     settings:
       thousand_separator: ''
       decimal_separator: .
       scale: 2
       prefix_suffix: true
     third_party_settings: {  }
-    label: above
+    weight: 1
     region: content
   total_price:
     type: commerce_price_default
-    weight: 3
+    label: above
     settings:
       strip_trailing_zeroes: false
-      currency_display: symbol
+      display_currency_code: false
     third_party_settings: {  }
-    label: above
+    weight: 3
     region: content
   unit_price:
     type: commerce_price_default
-    weight: 2
+    label: above
     settings:
       strip_trailing_zeroes: false
-      currency_display: symbol
+      display_currency_code: false
     third_party_settings: {  }
-    label: above
+    weight: 2
     region: content
 hidden:
   adjustments: true

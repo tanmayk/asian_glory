@@ -1,4 +1,4 @@
-uuid: 81e1b4e4-8a51-45ae-853d-e7b873229ebe
+uuid: 58f1c9f7-0ab2-4ffb-a805-946e588113d6
 langcode: en
 status: true
 dependencies:
@@ -15,11 +15,11 @@ bundle: product_category
 mode: default
 content:
   description:
-    label: hidden
     type: text_default
-    weight: 0
-    region: content
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   field_image: true

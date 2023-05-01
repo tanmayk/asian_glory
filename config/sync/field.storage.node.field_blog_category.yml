@@ -1,4 +1,4 @@
-uuid: 92037342-038c-4495-9fd7-8bec270febe0
+uuid: b0af8d74-ad2e-4973-96ec-09f1de3dce65
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - node
     - taxonomy
 _core:
-  default_config_hash: ysVX8xl7PXKbRX05v5l6pz5UFZmgT8w_arjAxXvwvLc
+  default_config_hash: boQiSkDCiLKWe8BuoAL-2XW9PMKqbcC4GIhi28U07_E
 id: node.field_blog_category
 field_name: field_blog_category
 entity_type: node
@@ -14,7 +14,7 @@ type: entity_reference
 settings:
   target_type: taxonomy_term
 module: core
-locked: false
+locked: true
 cardinality: -1
 translatable: true
 indexes: {  }

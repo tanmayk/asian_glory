@@ -1,4 +1,4 @@
-uuid: 4f6bca0e-b565-432c-983d-f83af1966944
+uuid: a6d90edd-4502-4563-8a4c-829d594a7332
 langcode: en
 status: true
 dependencies:
@@ -18,14 +18,14 @@ mode: teaser
 content:
   field_image:
     type: image
-    weight: 0
-    region: content
     label: hidden
     settings:
-      image_style: sc400x400
       image_link: ''
+      image_style: sc400x400
       image_loading:
         attribute: lazy
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   description: true
