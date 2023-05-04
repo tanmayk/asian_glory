@@ -200,7 +200,7 @@ class IndexProductNameDepth extends ArgumentPluginBase {
     $last = "tn";
 
     if ($this->options['depth'] > 0) {
-      $subquery->leftJoin('taxonomy_term__parent', 'tp', "tp.entity_id = tn.tid");
+      $subquery->leftJoin('taxonomy_term__parent', 'tp', "tp.entity_id = tn.field_category_target_id");
       $last = "tp";
       foreach (range(1, abs($this->options['depth'])) as $count) {
         $subquery->leftJoin('taxonomy_term__parent', "tp$count", "$last.parent_target_id = tp$count.entity_id");
