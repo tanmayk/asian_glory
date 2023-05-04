@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_views_data_alter().
+ */
+function product_taxonomy_term_name_depth_views_data_alter(array &$data) {
+
+  $data['commerce_product_field_data']['term_commerce_product_taxonomy_name_depth'] = [
+    'help' => t('Display Product if it has the selected taxonomy terms, or children of the selected terms. Due to additional complexity, this has fewer options than the versions without depth.'),
+    'real field' => 'product_id',
+    'argument' => [
+      'title' => t('Has taxonomy term NAME (with depth)'),
+      'id' => 'taxonomy_index_product_name_depth',
+      'accept depth modifier' => TRUE,
+    ],
+  ];
+
+}

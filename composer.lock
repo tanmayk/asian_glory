@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7cd14b4124c234dfdadf12452a0c3346",
+    "content-hash": "0dd54af81774ec57d1cf1d6d1327a27e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4481,51 +4481,6 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
-            }
-        },
-        {
-            "name": "drupal/product_taxonomy_term_name_depth",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/product_taxonomy_term_name_depth.git",
-                "reference": "1.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/product_taxonomy_term_name_depth-1.0.0.zip",
-                "reference": "1.0.0",
-                "shasum": "6571de72a5371a93e786435e29779a9206df3a71"
-            },
-            "require": {
-                "drupal/commerce": "*",
-                "drupal/core": "^8.8 || ^9.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.0.0",
-                    "datestamp": "1624341599",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Megha_kundar",
-                    "homepage": "https://www.drupal.org/user/3580849"
-                }
-            ],
-            "description": "Enables the categorization of commerce product.",
-            "homepage": "https://www.drupal.org/project/product_taxonomy_term_name_depth",
-            "support": {
-                "source": "https://git.drupalcode.org/project/product_taxonomy_term_name_depth"
             }
         },
         {
