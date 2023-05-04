@@ -194,9 +194,9 @@ class IndexProductNameDepth extends ArgumentPluginBase {
     }
 
     // Now build the subqueries.
-    $subquery = $this->database->select('commerce_product_taxonomy_index', 'tn');
-    $subquery->addField('tn', 'product_id');
-    $where = (new Condition('OR'))->condition('tn.tid', $tids, $operator);
+    $subquery = $this->database->select('commerce_product__field_category', 'tn');
+    $subquery->addField('tn', 'entity_id');
+    $where = (new Condition('OR'))->condition('tn.field_category_target_id', $tids, $operator);
     $last = "tn";
 
     if ($this->options['depth'] > 0) {
