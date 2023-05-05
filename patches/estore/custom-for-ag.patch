@@ -1,3 +1,16 @@
+diff --git a/estore.theme b/estore.theme
+index df1cf41..bc0c2dc 100644
+--- a/estore.theme
++++ b/estore.theme
+@@ -125,7 +125,7 @@ function estore_preprocess_commerce_cart_block(&$vars) {
+   // Not sure if this right way.
+   // @todo: review the code.
+   $vars['total'] = [
+-    'currency_code' => 'USD',
++    'currency_code' => 'INR',
+     'number' => 0,
+   ];
+   /** @var \Drupal\commerce_cart\CartProviderInterface $cart_provider */
 diff --git a/templates/layouts/homepage/first/homepage--first.html.twig b/templates/layouts/homepage/first/homepage--first.html.twig
 index 352cd53..636dab4 100644
 --- a/templates/layouts/homepage/first/homepage--first.html.twig

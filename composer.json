@@ -78,7 +78,7 @@
                 "3251836 : Error while deleting Wishlist Item": "https://www.drupal.org/files/issues/2022-05-26/broken-wishlist-3251836-3.patch"
             },
             "drupal/estore": {
-                "Custom changes": "patches/estore/custom-changes.patch"
+                "Custom changes": "patches/estore/custom-for-ag.patch"
             }
         }
     },
