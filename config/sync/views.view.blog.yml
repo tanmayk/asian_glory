@@ -310,6 +310,7 @@ display:
     display_plugin: block
     position: 3
     display_options:
+      enabled: false
       title: 'Blog and latest news'
       pager:
         type: some
@@ -362,6 +363,7 @@ display:
         title: Blog
         description: ''
         weight: -46
+        enabled: false
         expanded: false
         menu_name: main
         parent: ''

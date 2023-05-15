@@ -2,9 +2,9 @@ _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
 langcode: en
 uuid: 69f0f50b-1b20-44c6-a42a-d8b2a711c69b
-name: eStore
-mail: ivan.tbzh@gmail.com
-slogan: 'Lorem ipsum'
+name: 'Asian Glory'
+mail: Info@Asianglory.In
+slogan: ''
 page:
   403: ''
   404: ''

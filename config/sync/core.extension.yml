@@ -16,6 +16,7 @@ module:
   comment: 0
   commerce: 0
   commerce_cart: 0
+  commerce_ccavenue: 0
   commerce_checkout: 0
   commerce_log: 0
   commerce_number_pattern: 0
@@ -64,12 +65,14 @@ module:
   panels_ipe: 0
   path: 0
   path_alias: 0
+  product_taxonomy_term_name_depth: 0
   profile: 0
   quickedit: 0
   rdf: 0
   redirect: 0
   search: 0
   shortcut: 0
+  shs: 0
   state_machine: 0
   system: 0
   taxonomy: 0

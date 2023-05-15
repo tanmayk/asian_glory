@@ -1,0 +1,24 @@
+uuid: de75a49f-8d4d-43ea-a909-8e177f778c94
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_ccavenue
+id: ccavenue
+label: CCAvenue
+weight: null
+plugin: ccavenue_redirect
+configuration:
+  display_label: CCAvenue
+  mode: live
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  merchant_id: '2379726'
+  access_code: AVEN57KE89AJ85NEJA
+  working_key: E64CE1AF933CED1D8722DD19EC070215
+  currency: INR
+  language: EN
+  pmode: test
+conditions: {  }
+conditionOperator: AND

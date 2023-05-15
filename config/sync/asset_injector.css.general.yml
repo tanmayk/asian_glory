@@ -10,6 +10,15 @@ code: |-
   .block-region-top-slideshow img {
   	width: 100%;
   }
+
+  .middle-header-wrapper .region-left-middle-header .branding-block .logo {
+  	width: auto;
+  	height: auto;
+  }
+
+  .middle-header-wrapper {
+  	padding: 0;
+  }
 media: all
 preprocess: true
 conditions:

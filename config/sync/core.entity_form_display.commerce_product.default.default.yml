@@ -16,6 +16,7 @@ dependencies:
     - commerce
     - image
     - path
+    - shs
     - text
 _core:
   default_config_hash: gcsrKJ5HqxdoqA7GqRhz33UrCLp_PxvLAMxSKJKI4uU
@@ -41,10 +42,14 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_category:
-    type: options_buttons
+    type: options_shs
     weight: 1
     region: content
-    settings: {  }
+    settings:
+      display_node_count: false
+      create_new_items: false
+      create_new_levels: false
+      force_deepest: true
     third_party_settings: {  }
   field_images:
     type: image_image

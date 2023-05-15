@@ -1,6 +1,6 @@
 uuid: 1b3f1ee1-f8d5-402e-8956-97c1d4023f78
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.blog
@@ -10,9 +10,6 @@ dependencies:
     - views
   theme:
     - estore
-third_party_settings:
-  block_class:
-    classes: ''
 id: views_block__blog_block_archives
 theme: estore
 region: sidebar_second
