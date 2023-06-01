@@ -83,6 +83,9 @@
             },
             "drupal/commerce_ccavenue": {
                 "3262640 : Incorrect/Same CCAVENUE_API_TEST_URL. CCAVENUE_API_URL": "https://www.drupal.org/files/issues/2022-02-12/3262640-4.patch"
+            },
+            "drupal/commerce": {
+                "3203069 : Order items view not displaying order items" : "https://www.drupal.org/files/issues/2021-03-11/3203069-commerce-order-items-missing-from-order-item-table-fix.patch"
             }
         }
     },
